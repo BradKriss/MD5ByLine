@@ -1,0 +1,31 @@
+
+<h2>Input</h2>
+<textarea id="email-input">
+
+</textarea>
+<br>
+<button onclick="process()">Submit</button>
+<br>
+<h2>Output</h2>
+<textarea id="email-output">
+
+</textarea>
+
+<script src="js/md5.js"></script>
+<script type="text/javascript">
+
+function process() {
+    var input = document.getElementById("email-input").value;
+
+    var lines = input.split('\n');
+    var output = "";
+
+    for(var line = 0; line < lines.length; line++){
+        output += md5(lines[line])+"\n";
+    }
+
+    document.getElementById("email-output").value = output;
+
+}
+
+</script>
