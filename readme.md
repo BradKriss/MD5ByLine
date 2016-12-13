@@ -1,9 +1,13 @@
 # MD5 By Line
 
-This will intake text and generate an MD5 Hash for every line.
+Using [blueimp/JavaScript-MD5](https://github.com/blueimp/JavaScript-MD5) every line is MD5 hashed
 
-## MD5 Hashing via blueimp/JavaScript-MD5
+## Usage
 
-I just added a couple quick html inputs and used blueimp's implementation in a for loop.
+Just clone and open in a browser. No config needed, it can even run offline.
 
-https://github.com/blueimp/JavaScript-MD5
+It's also hosted at [MD5.BradKriss.com](https://MD5.BradKriss.com). All hashing is done via JS, and in turn your client machine. No data entered is transferred or processed on a remote server.
+
+## License
+
+[MIT license.](https://opensource.org/licenses/MIT)
