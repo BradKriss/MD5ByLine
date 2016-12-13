@@ -1,69 +1,37 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>MD5 Hasher</title>
+    <title>MD5 Hasher</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,600" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
 
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+    <div class="app">
+      <h2>Input</h2>
+      <textarea id="input-field"></textarea>
+      <button onclick="process()">Submit</button>
+      <h2>Output</h2>
+      <textarea id="output-field"></textarea>
+    </div>
 
-            main {
-              margin: 10px 10%;
-              text-align: center;
-              font-weight: 400;
-            }
 
-            textarea {
-              height: 300px;
-              width: 100%;
-            }
-
-            button {
-              width: 100%;
-              height: 3rem;
-            }
-
-            .form-area {
-              margin: 2em;
-            }
-
-        </style>
-    </head>
-    <body>
-
-        <div class="form-area">
-
-          <h2>Input</h2>
-          <textarea id="input-field"></textarea>
-          <button onclick="process()">Submit</button>
-          <h2>Output</h2>
-          <textarea id="output-field"></textarea>
-
-        </div>
-
-        <main>
-          <p>This makes an MD5 hash of every line supplied. It does so using javascript, so the hashing is performed by your browser. No information is sent out and this code can even be run offline by cloning the code from Github.</p>
-          <p>Credit for hashing the information goes to <a href="https://github.com/blueimp/JavaScript-MD5">blueimp/JavaScript-MD5</a></p>
-          <p>Source code avaliable on Github: <a href="https://github.com/BradKriss/BradKriss">BradKriss/MD5ByLine</a> </p>
-          <p>
-            <a href="https://github.com/BradKriss/BradKriss">
-              <img src="img/github-32.png" border="0">
-            </a>
-          </p>
-        </main>
+    <main>
+      <p>This makes an MD5 hash of every line supplied. It does so using javascript, so the hashing is performed by your browser. No information is sent out and this code can even be run offline by cloning the code from Github.</p>
+      <p>Credit for hashing the information goes to <a href="https://github.com/blueimp/JavaScript-MD5">blueimp/JavaScript-MD5</a></p>
+      <p>Source code avaliable on Github: <a href="https://github.com/BradKriss/BradKriss">BradKriss/MD5ByLine</a> </p>
+      <p>
+        <a href="https://github.com/BradKriss/BradKriss">
+          <img src="img/github-32.png" border="0">
+        </a>
+      </p>
+    </main>
 
     <script src="js/md5.js" type="text/javascript">></script>
     <script src="js/process.js" type="text/javascript"></script>
