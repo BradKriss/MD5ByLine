@@ -1,4 +1,4 @@
-# MD5 By Line
+# MD5 By Line ([hashr.app](https://hashr.app))
 
 Using [blueimp/JavaScript-MD5](https://github.com/blueimp/JavaScript-MD5) every line is MD5 hashed
 
