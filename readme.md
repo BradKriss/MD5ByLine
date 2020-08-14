@@ -8,6 +8,8 @@ Just clone and open in a browser. No config needed, it can even run offline.
 
 It's also hosted at [MD5.BradKriss.com](https://MD5.BradKriss.com). All hashing is done via JS, and in turn your client machine. No data entered is transferred or processed on a remote server.
 
+(Can get bogged down by big datasets 100k+)
+
 ## License
 
 [MIT license.](https://opensource.org/licenses/MIT)
